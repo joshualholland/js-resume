@@ -17,3 +17,19 @@ function displayPosition(company, title, description) {
 displayPosition("* O'Henry's Coffees -", "Barista -", "Make Lattes");
 displayPosition("* Van's -", "Shift Leader -", "Lead teams of sale's associates to make sales goals and maintain store");
 displayPosition("* Best Buy -", "Sale's Associate -", "Sold and lead classes on cameras including Sony, Canon, and Nikon(Sony's the best)"); 
+// true/false cool skills
+console.log("My Skills:");
+function displaySkill(skill, coolness) {
+    if (coolness && true) {
+        console.log('BAM:', skill)
+    } else {
+        console.log(skill)
+    }
+    
+};
+displaySkill("* Photography", 'coolness && true');
+displaySkill("* guitar", 'coolness && true');
+displaySkill("* gaming",);
+displaySkill("* HTML",);
+displaySkill("* CSS", 'coolness && true');
+displaySkill("* Downhill mountain biking", 'coolness && true');
